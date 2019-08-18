@@ -1,6 +1,11 @@
-window.onload = changeText('lap0015', 'General Physics I')
+const name = 'Física Geral I'
+const code = 'lap0015'
 
-function changeText(subject, name) {
-    document.querySelector(`#${subject} > .name`).innerHTML = name;
-    console.log('OK!')
+
+
+$(document).ready(getText)
+
+function getText() {
+    $(`#${code} > p.code`).text(`${code}`)
+    $(`#${code} > p.name`).text(`${name}`)
 }
