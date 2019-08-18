@@ -1,0 +1,687 @@
+{
+    "subject": [
+        {
+            "code": "lap0015",
+            "name": "Física Geral I",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0016",
+            "name": "Física Experimental I",
+            "requisites": [],
+            "theory": 0,
+            "practice": 30,
+            "type": "basic"
+        },
+        {
+            "code": "lap0049",
+            "name": "Cálculo Diferencial e Integral I",
+            "requisites": [],
+            "theory": 90,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0050",
+            "name": "Geometria Analítica",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap1001",
+            "name": "Introdução à Engenharia Elétrica",
+            "requisites": [],
+            "theory": 30,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap0002",
+            "name": "Oficina de Leitura e Produção Textual",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "common"
+        },
+        {
+            "code": "lap0001",
+            "name": "Filosofia e História das Ciências",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "common"
+        },
+        {
+            "code": "lap0020",
+            "name": "Introdução ao Desenho Técnico",
+            "requisites": [],
+            "theory": 30,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0022",
+            "name": "Física Geral II",
+            "requisites": [
+                "lap0015",
+                "lap0049"
+            ],
+            "theory": 90,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0023",
+            "name": "Física Experimental II",
+            "requisites": [
+                "lap0015",
+                "lap0016"
+            ],
+            "theory": 0,
+            "practice": 30,
+            "type": "basic"
+        },
+        {
+            "code": "lap0051",
+            "name": "Cálculo Diferencial e Integral II",
+            "requisites": [
+                "lap0049",
+                "lap0050"
+            ],
+            "theory": 90,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0018",
+            "name": "Álgebra Linear",
+            "requisites": [
+                "lap0050"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0019",
+            "name": "Ciências do Ambiente",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0003",
+            "name": "Oficina de Leitura e Produção de Textos Acadêmicos",
+            "requisites": [
+                "lap0002"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "common"
+        },
+        {
+            "code": "lap0070",
+            "name": "Química Geral",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0029",
+            "name": "Física Geral III",
+            "requisites": [
+                "lap0022",
+                "lap0051"
+            ],
+            "theory": 90,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0030",
+            "name": "Física Experimental III",
+            "requisites": [
+                "lap0022",
+                "lap0023"
+            ],
+            "theory": 0,
+            "practice": 30,
+            "type": "basic"
+        },
+        {
+            "code": "lap0052",
+            "name": "Cálculo Diferencial e Integral III",
+            "requisites": [
+                "lap0051"
+            ],
+            "theory": 90,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0025",
+            "name": "Estatística",
+            "requisites": [
+                "lap0049"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0026",
+            "name": "Algoritmos de Programação Computacional",
+            "requisites": [],
+            "theory": 30,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0021",
+            "name": "Metrologia",
+            "requisites": [
+                "lap0016"
+            ],
+            "theory": 30,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap0037",
+            "name": "Ciência e Tecnologia dos Materiais",
+            "requisites": [
+                "lap0070"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap0071",
+            "name": "Química Experimental",
+            "requisites": [],
+            "theory": 0,
+            "practice": 30,
+            "type": "basic"
+        },
+        {
+            "code": "lap0035",
+            "name": "Física Geral IV",
+            "requisites": [
+                "lap0029",
+                "lap0050"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap0036",
+            "name": "Física Experimental IV",
+            "requisites": [
+                "lap0029",
+                "lap0030"
+            ],
+            "theory": 0,
+            "practice": 30,
+            "type": "basic"
+        },
+        {
+            "code": "lap0053",
+            "name": "Equações Diferenciais Ordinárias",
+            "requisites": [
+                "lap0018",
+                "lap0052"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap1005",
+            "name": "Circuitos Elétricos I",
+            "requisites": [
+                "lap0029"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0032",
+            "name": "Cálculo Numérico",
+            "requisites": [
+                "lap0026",
+                "lap0049"
+            ],
+            "theory": 30,
+            "practice": 30,
+            "type": "basic"
+        },
+        {
+            "code": "lap2032",
+            "name": "Mecânica Geral I",
+            "requisites": [
+                "lap0015",
+                "lap0050"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1033",
+            "name": "Materiais Elétricos",
+            "requisites": [
+                "lap0037",
+                "lap0029"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap0028",
+            "name": "Higiene e Segurança do Trabalho",
+            "requisites": [],
+            "theory": 30,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1004",
+            "name": "Eletromagnetismo",
+            "requisites": [
+                "lap0035",
+                "lap0053"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1006",
+            "name": "Eletrônica Geral I",
+            "requisites": [
+                "lap1005"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap1030",
+            "name": "Análise de Sinais e Sistemas",
+            "requisites": [
+                "lap0053"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1007",
+            "name": "Circuitos Elétricos II",
+            "requisites": [
+                "lap1005"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0008",
+            "name": "Eletrônica Digital",
+            "requisites": [
+                "lap0026",
+                "lap0029"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0039",
+            "name": "Resistência dos Materiais I",
+            "requisites": [
+                "lap2032"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1034",
+            "name": "Metodologia da Pesquisa Científica",
+            "requisites": [
+                "lap0003"
+            ],
+            "theory": 30,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1010",
+            "name": "Conversão Eletromagnética de Energia",
+            "requisites": [
+                "lap1004",
+                "lap1007"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1032",
+            "name": "Eletrônica Geral II",
+            "requisites": [
+                "lap1006"
+            ],
+            "theory": 30,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap1014",
+            "name": "Projeto de Instalações Elétricas",
+            "requisites": [
+                "lap0020",
+                "lap1007"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap1013",
+            "name": "Circuitos Elétricos III",
+            "requisites": [
+                "lap1007"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1037",
+            "name": "Controle e Servomecanismos",
+            "requisites": [
+                "lap1030"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0040",
+            "name": "Legislação Social",
+            "requisites": [],
+            "theory": 30,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "opt0001",
+            "name": "Optativa I",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "comp"
+        },
+        {
+            "code": "lap1019",
+            "name": "Máquinas Elétricas",
+            "requisites": [
+                "lap1010"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1031",
+            "name": "Máquinas Primárias de Geração de Energia",
+            "requisites": [
+                "lap1010"
+            ],
+            "theory": 30,
+            "practice": 30,
+            "type": "spec"
+        },
+        {
+            "code": "lap1020",
+            "name": "Projetos Industriais",
+            "requisites": [
+                "lap1014"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1018",
+            "name": "Sistemas de Potência",
+            "requisites": [
+                "lap1013"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "spec"
+        },
+        {
+            "code": "lap1003",
+            "name": "Fenômenos de Transporte",
+            "requisites": [
+                "lap0022",
+                "lap0052"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap0038",
+            "name": "Administração Industrial",
+            "requisites": [],
+            "theory": 30,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap1009",
+            "name": "Processamento Digital de Sinais",
+            "requisites": [
+                "lap0030"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "spec"
+        },
+        {
+            "code": "lap1015",
+            "name": "Modelagem e Simulação",
+            "requisites": [
+                "lap1037",
+                "lap0032"
+            ],
+            "theory": 30,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap1021",
+            "name": "Laboratório de Máquinas Elétricas",
+            "requisites": [
+                "lap1019"
+            ],
+            "theory": 0,
+            "practice": 60,
+            "type": "pro"
+        },
+        {
+            "code": "lap1026",
+            "name": "Geração de Energia Elétrica",
+            "requisites": [
+                "lap1031",
+                "lap0019"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "spec"
+        },
+        {
+            "code": "lap1012",
+            "name": "Sistemas Microprocessados",
+            "requisites": [
+                "lap1008",
+                "lap1006"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "spec"
+        },
+        {
+            "code": "lap1027",
+            "name": "Proteção de Sistemas Elétricos",
+            "requisites": [
+                "lap1018"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "spec"
+        },
+        {
+            "code": "lap1017",
+            "name": "Eletrônica de Potência",
+            "requisites": [
+                "lap1032",
+                "lap1007"
+            ],
+            "theory": 30,
+            "practice": 30,
+            "type": "pro"
+        },
+        {
+            "code": "lap0044",
+            "name": "Economia",
+            "requisites": [],
+            "theory": 30,
+            "practice": 0,
+            "type": "basic"
+        },
+        {
+            "code": "lap1036",
+            "name": "Medida de Grandezas Físicas",
+            "requisites": [
+                "lap1032",
+                "lap0021"
+            ],
+            "theory": 0,
+            "practice": 60,
+            "type": "pro"
+        },
+        {
+            "code": "opt0002",
+            "name": "Optativa II",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "comp"
+        },
+        {
+            "code": "lap1038",
+            "name": "Acionamentos Elétricos",
+            "requisites": [
+                "lap1019",
+                "lap1017"
+            ],
+            "theory": 30,
+            "practice": 30,
+            "type": "spec"
+        },
+        {
+            "code": "lap1048",
+            "name": "Projeto de Trabalho de Conclusão de Curso",
+            "requisites": [
+                "lap1034",
+                "*"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "pro"
+        },
+        {
+            "code": "lap1023",
+            "name": "Energias Renováveis",
+            "requisites": [
+                "lap1017"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "spec"
+        },
+        {
+            "code": "lap1022",
+            "name": "Transmissão e Distribuição de Energia Elétrica",
+            "requisites": [
+                "lap1018"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "spec"
+        },
+        {
+            "code": "lap1025",
+            "name": "Automação Industrial",
+            "requisites": [
+                "lap1037"
+            ],
+            "theory": 60,
+            "practice": 30,
+            "type": "spec"
+        },
+        {
+            "code": "opt0003",
+            "name": "Optativa III",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "comp"
+        },
+        {
+            "code": "opt0004",
+            "name": "Optativa IV",
+            "requisites": [],
+            "theory": 60,
+            "practice": 0,
+            "type": "comp"
+        },
+        {
+            "code": "lap1029",
+            "name": "Estágio Supervisionado",
+            "requisites": [
+                "*"
+            ],
+            "theory": 252,
+            "practice": 30,
+            "type": "comp"
+        },
+        {
+            "code": "lap1049",
+            "name": "Trabalho de Conclusão de Curso",
+            "requisites": [
+                "lap1048"
+            ],
+            "theory": 60,
+            "practice": 0,
+            "type": "comp"
+        },
+    ]
+}
